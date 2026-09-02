@@ -1,4 +1,6 @@
-# SensESP Project Template
+# SensESP MQ gas sensors
+
+**Status: scaffold.** Builds on SensESP 3.5; DHT22 temperature/humidity and a temperature/humidity-corrected MQ-135 CO2 reading go to Signal K. MQ-135 R0 calibration, other MQ gases, and the ADC/BME280/SGP30 ideas below are not implemented.
 
 This repository provides a template for [SensESP](https://github.com/SignalK/SensESP/) projects.
 Fork, clone or download the repository and try building and uploading the project to an ESP32 device.
