@@ -7,9 +7,11 @@ charset = utf-8
 trim_trailing_whitespace = true
 end_of_line = lf
 insert_final_newline = true
+indent_style = space
+indent_size = 2
 
-# Tab indentation (no size specified)
-[Makefile]
+# make requires a literal tab before every recipe line
+[{Makefile,makefile,GNUmakefile,*.mk}]
 indent_style = tab
 
 [*.{c,h,cpp,hpp}]
